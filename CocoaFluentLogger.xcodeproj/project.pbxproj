@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0790D2AE170D41ED00434707 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0790D2AD170D41ED00434707 /* Foundation.framework */; };
+		0790D2B3170D41ED00434707 /* CocoaFluentLogger.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0790D2B2170D41ED00434707 /* CocoaFluentLogger.h */; };
+		0790D2B5170D41ED00434707 /* CocoaFluentLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 0790D2B4170D41ED00434707 /* CocoaFluentLogger.m */; };
+		0790D2BD170D41EE00434707 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0790D2BC170D41EE00434707 /* SenTestingKit.framework */; };
+		0790D2BF170D41EE00434707 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0790D2BE170D41EE00434707 /* UIKit.framework */; };
+		0790D2C0170D41EE00434707 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0790D2AD170D41ED00434707 /* Foundation.framework */; };
+		0790D2C3170D41EE00434707 /* libCocoaFluentLogger.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0790D2AA170D41ED00434707 /* libCocoaFluentLogger.a */; };
+		0790D2C9170D41EE00434707 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0790D2C7170D41EE00434707 /* InfoPlist.strings */; };
+		0790D2CC170D41EE00434707 /* CocoaFluentLoggerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0790D2CB170D41EE00434707 /* CocoaFluentLoggerTests.m */; };
+		0790D2DA170D420700434707 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0790D2BE170D41EE00434707 /* UIKit.framework */; };
+		0790D2DB170D420700434707 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0790D2AD170D41ED00434707 /* Foundation.framework */; };
+		0790D2DD170D420700434707 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0790D2DC170D420700434707 /* CoreGraphics.framework */; };
+		0790D2E3170D420700434707 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0790D2E1170D420700434707 /* InfoPlist.strings */; };
+		0790D2E5170D420700434707 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0790D2E4170D420700434707 /* main.m */; };
+		0790D2E9170D420700434707 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0790D2E8170D420700434707 /* AppDelegate.m */; };
+		0790D2EB170D420700434707 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 0790D2EA170D420700434707 /* Default.png */; };
+		0790D2ED170D420700434707 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0790D2EC170D420700434707 /* Default@2x.png */; };
+		0790D2EF170D420700434707 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0790D2EE170D420700434707 /* Default-568h@2x.png */; };
+		0790D2F3170D44A500434707 /* libCocoaFluentLogger.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0790D2AA170D41ED00434707 /* libCocoaFluentLogger.a */; };
+		A72D0BEFD625445681474122 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FA173C8FD2A42178735B7E5 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0790D2C1170D41EE00434707 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0790D2A2170D41ED00434707 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0790D2A9170D41ED00434707;
+			remoteInfo = CocoaFluentLogger;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0790D2A8170D41ED00434707 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/${PRODUCT_NAME}";
+			dstSubfolderSpec = 16;
+			files = (
+				0790D2B3170D41ED00434707 /* CocoaFluentLogger.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0790D2AA170D41ED00434707 /* libCocoaFluentLogger.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCocoaFluentLogger.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		0790D2AD170D41ED00434707 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0790D2B1170D41ED00434707 /* CocoaFluentLogger-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CocoaFluentLogger-Prefix.pch"; sourceTree = "<group>"; };
+		0790D2B2170D41ED00434707 /* CocoaFluentLogger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CocoaFluentLogger.h; sourceTree = "<group>"; };
+		0790D2B4170D41ED00434707 /* CocoaFluentLogger.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CocoaFluentLogger.m; sourceTree = "<group>"; };
+		0790D2BB170D41EE00434707 /* CocoaFluentLoggerTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CocoaFluentLoggerTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0790D2BC170D41EE00434707 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		0790D2BE170D41EE00434707 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		0790D2C6170D41EE00434707 /* CocoaFluentLoggerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CocoaFluentLoggerTests-Info.plist"; sourceTree = "<group>"; };
+		0790D2C8170D41EE00434707 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0790D2CB170D41EE00434707 /* CocoaFluentLoggerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CocoaFluentLoggerTests.m; sourceTree = "<group>"; };
+		0790D2D9170D420700434707 /* Examples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Examples.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0790D2DC170D420700434707 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0790D2E0170D420700434707 /* Examples-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Examples-Info.plist"; sourceTree = "<group>"; };
+		0790D2E2170D420700434707 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0790D2E4170D420700434707 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0790D2E6170D420700434707 /* Examples-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Examples-Prefix.pch"; sourceTree = "<group>"; };
+		0790D2E7170D420700434707 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0790D2E8170D420700434707 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0790D2EA170D420700434707 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		0790D2EC170D420700434707 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		0790D2EE170D420700434707 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		8FA173C8FD2A42178735B7E5 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A88A8FC060204273BF53C29E /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0790D2A7170D41ED00434707 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0790D2AE170D41ED00434707 /* Foundation.framework in Frameworks */,
+				A72D0BEFD625445681474122 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0790D2B7170D41EE00434707 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0790D2BD170D41EE00434707 /* SenTestingKit.framework in Frameworks */,
+				0790D2BF170D41EE00434707 /* UIKit.framework in Frameworks */,
+				0790D2C0170D41EE00434707 /* Foundation.framework in Frameworks */,
+				0790D2C3170D41EE00434707 /* libCocoaFluentLogger.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0790D2D6170D420700434707 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0790D2DA170D420700434707 /* UIKit.framework in Frameworks */,
+				0790D2DB170D420700434707 /* Foundation.framework in Frameworks */,
+				0790D2DD170D420700434707 /* CoreGraphics.framework in Frameworks */,
+				0790D2F3170D44A500434707 /* libCocoaFluentLogger.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0790D2A1170D41ED00434707 = {
+			isa = PBXGroup;
+			children = (
+				0790D2AF170D41ED00434707 /* CocoaFluentLogger */,
+				0790D2C4170D41EE00434707 /* CocoaFluentLoggerTests */,
+				0790D2DE170D420700434707 /* Examples */,
+				0790D2AC170D41ED00434707 /* Frameworks */,
+				0790D2AB170D41ED00434707 /* Products */,
+				A88A8FC060204273BF53C29E /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		0790D2AB170D41ED00434707 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0790D2AA170D41ED00434707 /* libCocoaFluentLogger.a */,
+				0790D2BB170D41EE00434707 /* CocoaFluentLoggerTests.octest */,
+				0790D2D9170D420700434707 /* Examples.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0790D2AC170D41ED00434707 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0790D2AD170D41ED00434707 /* Foundation.framework */,
+				0790D2BC170D41EE00434707 /* SenTestingKit.framework */,
+				0790D2BE170D41EE00434707 /* UIKit.framework */,
+				0790D2DC170D420700434707 /* CoreGraphics.framework */,
+				8FA173C8FD2A42178735B7E5 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0790D2AF170D41ED00434707 /* CocoaFluentLogger */ = {
+			isa = PBXGroup;
+			children = (
+				0790D2B2170D41ED00434707 /* CocoaFluentLogger.h */,
+				0790D2B4170D41ED00434707 /* CocoaFluentLogger.m */,
+				0790D2B0170D41ED00434707 /* Supporting Files */,
+			);
+			path = CocoaFluentLogger;
+			sourceTree = "<group>";
+		};
+		0790D2B0170D41ED00434707 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0790D2B1170D41ED00434707 /* CocoaFluentLogger-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0790D2C4170D41EE00434707 /* CocoaFluentLoggerTests */ = {
+			isa = PBXGroup;
+			children = (
+				0790D2CB170D41EE00434707 /* CocoaFluentLoggerTests.m */,
+				0790D2C5170D41EE00434707 /* Supporting Files */,
+			);
+			path = CocoaFluentLoggerTests;
+			sourceTree = "<group>";
+		};
+		0790D2C5170D41EE00434707 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0790D2C6170D41EE00434707 /* CocoaFluentLoggerTests-Info.plist */,
+				0790D2C7170D41EE00434707 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0790D2DE170D420700434707 /* Examples */ = {
+			isa = PBXGroup;
+			children = (
+				0790D2E7170D420700434707 /* AppDelegate.h */,
+				0790D2E8170D420700434707 /* AppDelegate.m */,
+				0790D2DF170D420700434707 /* Supporting Files */,
+			);
+			path = Examples;
+			sourceTree = "<group>";
+		};
+		0790D2DF170D420700434707 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0790D2E0170D420700434707 /* Examples-Info.plist */,
+				0790D2E1170D420700434707 /* InfoPlist.strings */,
+				0790D2E4170D420700434707 /* main.m */,
+				0790D2E6170D420700434707 /* Examples-Prefix.pch */,
+				0790D2EA170D420700434707 /* Default.png */,
+				0790D2EC170D420700434707 /* Default@2x.png */,
+				0790D2EE170D420700434707 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0790D2A9170D41ED00434707 /* CocoaFluentLogger */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0790D2CF170D41EE00434707 /* Build configuration list for PBXNativeTarget "CocoaFluentLogger" */;
+			buildPhases = (
+				0790D2A6170D41ED00434707 /* Sources */,
+				0790D2A7170D41ED00434707 /* Frameworks */,
+				0790D2A8170D41ED00434707 /* CopyFiles */,
+				B378FC0594E0467293A8DBFA /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CocoaFluentLogger;
+			productName = CocoaFluentLogger;
+			productReference = 0790D2AA170D41ED00434707 /* libCocoaFluentLogger.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		0790D2BA170D41EE00434707 /* CocoaFluentLoggerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0790D2D2170D41EE00434707 /* Build configuration list for PBXNativeTarget "CocoaFluentLoggerTests" */;
+			buildPhases = (
+				0790D2B6170D41EE00434707 /* Sources */,
+				0790D2B7170D41EE00434707 /* Frameworks */,
+				0790D2B8170D41EE00434707 /* Resources */,
+				0790D2B9170D41EE00434707 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0790D2C2170D41EE00434707 /* PBXTargetDependency */,
+			);
+			name = CocoaFluentLoggerTests;
+			productName = CocoaFluentLoggerTests;
+			productReference = 0790D2BB170D41EE00434707 /* CocoaFluentLoggerTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+		0790D2D8170D420700434707 /* Examples */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0790D2F0170D420700434707 /* Build configuration list for PBXNativeTarget "Examples" */;
+			buildPhases = (
+				0790D2D5170D420700434707 /* Sources */,
+				0790D2D6170D420700434707 /* Frameworks */,
+				0790D2D7170D420700434707 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Examples;
+			productName = Examples;
+			productReference = 0790D2D9170D420700434707 /* Examples.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0790D2A2170D41ED00434707 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+			};
+			buildConfigurationList = 0790D2A5170D41ED00434707 /* Build configuration list for PBXProject "CocoaFluentLogger" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0790D2A1170D41ED00434707;
+			productRefGroup = 0790D2AB170D41ED00434707 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0790D2A9170D41ED00434707 /* CocoaFluentLogger */,
+				0790D2BA170D41EE00434707 /* CocoaFluentLoggerTests */,
+				0790D2D8170D420700434707 /* Examples */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0790D2B8170D41EE00434707 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0790D2C9170D41EE00434707 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0790D2D7170D420700434707 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0790D2E3170D420700434707 /* InfoPlist.strings in Resources */,
+				0790D2EB170D420700434707 /* Default.png in Resources */,
+				0790D2ED170D420700434707 /* Default@2x.png in Resources */,
+				0790D2EF170D420700434707 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0790D2B9170D41EE00434707 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+		B378FC0594E0467293A8DBFA /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0790D2A6170D41ED00434707 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0790D2B5170D41ED00434707 /* CocoaFluentLogger.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0790D2B6170D41EE00434707 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0790D2CC170D41EE00434707 /* CocoaFluentLoggerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0790D2D5170D420700434707 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0790D2E5170D420700434707 /* main.m in Sources */,
+				0790D2E9170D420700434707 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0790D2C2170D41EE00434707 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0790D2A9170D41ED00434707 /* CocoaFluentLogger */;
+			targetProxy = 0790D2C1170D41EE00434707 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0790D2C7170D41EE00434707 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0790D2C8170D41EE00434707 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0790D2E1170D420700434707 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0790D2E2170D420700434707 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0790D2CD170D41EE00434707 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0790D2CE170D41EE00434707 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0790D2D0170D41EE00434707 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A88A8FC060204273BF53C29E /* Pods.xcconfig */;
+			buildSettings = {
+				DSTROOT = /tmp/CocoaFluentLogger.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CocoaFluentLogger/CocoaFluentLogger-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		0790D2D1170D41EE00434707 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A88A8FC060204273BF53C29E /* Pods.xcconfig */;
+			buildSettings = {
+				DSTROOT = /tmp/CocoaFluentLogger.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CocoaFluentLogger/CocoaFluentLogger-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		0790D2D3170D41EE00434707 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CocoaFluentLogger/CocoaFluentLogger-Prefix.pch";
+				INFOPLIST_FILE = "CocoaFluentLoggerTests/CocoaFluentLoggerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		0790D2D4170D41EE00434707 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CocoaFluentLogger/CocoaFluentLogger-Prefix.pch";
+				INFOPLIST_FILE = "CocoaFluentLoggerTests/CocoaFluentLoggerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+		0790D2F1170D420700434707 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Examples/Examples-Prefix.pch";
+				HEADER_SEARCH_PATHS = CocoaFluentLogger;
+				INFOPLIST_FILE = "Examples/Examples-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0790D2F2170D420700434707 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Examples/Examples-Prefix.pch";
+				HEADER_SEARCH_PATHS = CocoaFluentLogger;
+				INFOPLIST_FILE = "Examples/Examples-Info.plist";
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0790D2A5170D41ED00434707 /* Build configuration list for PBXProject "CocoaFluentLogger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0790D2CD170D41EE00434707 /* Debug */,
+				0790D2CE170D41EE00434707 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0790D2CF170D41EE00434707 /* Build configuration list for PBXNativeTarget "CocoaFluentLogger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0790D2D0170D41EE00434707 /* Debug */,
+				0790D2D1170D41EE00434707 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0790D2D2170D41EE00434707 /* Build configuration list for PBXNativeTarget "CocoaFluentLoggerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0790D2D3170D41EE00434707 /* Debug */,
+				0790D2D4170D41EE00434707 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0790D2F0170D420700434707 /* Build configuration list for PBXNativeTarget "Examples" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0790D2F1170D420700434707 /* Debug */,
+				0790D2F2170D420700434707 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0790D2A2170D41ED00434707 /* Project object */;
+}
