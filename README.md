@@ -7,6 +7,7 @@ iOS Smaple
 CocoaFluentLogger is currently only supported iOS.
 
 ```objc
+//#import <CocoaFluentLogger/CocoaFluentLogger.h>
 CocoaFluentLogger* logger = [[CocoaFluentLogger alloc] initWithHost:@"fluentd.example.com"
                                                                port:24224 tagPrefix:@"debug"];
 
