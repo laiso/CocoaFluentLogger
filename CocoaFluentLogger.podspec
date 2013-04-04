@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name         = 'CocoaFluentLoger'
+  s.name         = 'CocoaFluentLogger'
   s.version      = '0.0.1'
   s.license      = {
     :type => 'MIT License',
@@ -11,11 +11,11 @@ The above copyright notice and this permission notice shall be included in all c
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
     LICENSE
    }
-  s.homepage     = 'https://github.com/laiso/CocoaFluentLoger'
+  s.homepage     = 'https://github.com/laiso/CocoaFluentLogger'
   s.summary      = 'A structured logger for Fluentd (Objective-C)'
   s.author       = 'laiso'
-  s.source       = { :git => 'https://github.com/laiso/CocoaFluentLoger.git', :tag => 'v0.0.1' }
-  s.source_files = 'CocoaFluentLoger/*.{h,m}'
+  s.source       = { :git => 'https://github.com/laiso/CocoaFluentLogger.git', :tag => 'v0.0.1' }
+  s.source_files = 'CocoaFluentLogger/*.{h,m}'
   s.requires_arc = true
   s.dependency 'MessagePack'
 end
