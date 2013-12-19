@@ -1,9 +1,6 @@
 CocoaFluentLogger
 =====================
 
-iOS Smaple
-----------------
-
 CocoaFluentLogger is currently only supported iOS.
 
 ```objc
