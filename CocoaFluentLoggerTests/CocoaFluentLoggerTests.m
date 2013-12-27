@@ -17,6 +17,7 @@
 
 - (void)tearDown
 {
+  [self.logger disConnect];
   self.logger = nil;
   
   [super tearDown];
