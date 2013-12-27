@@ -46,22 +46,34 @@ static NSUInteger kFluentdDefaultPort = 24224;
     self.tagPrefix = prefix;
     self.host = host;
     self.port = port;
-   
+    
+    CFWriteStreamRef writeStream;
+    CFStreamCreatePairWithSocketToHost(NULL, (__bridge CFStringRef)self.host, self.port, NULL, &writeStream);
+    self.outputStream = CFBridgingRelease(writeStream);
+    self.outputStream.delegate = self;
+    
     _queue = dispatch_queue_create("so.lai.CocoaFluentLogger", NULL);
   }
   
   return self;
 }
 
+- (void)dealloc
+{
   if (_queue != NULL) {
 		dispatch_release(_queue);
 		_queue = NULL;
 	}
+  
+  [self.outputStream close];
+}
+
 - (void)connect
 {
-  CFWriteStreamRef writeStream;
-  CFStreamCreatePairWithSocketToHost(NULL, (__bridge CFStringRef)self.host, self.port, NULL, &writeStream);
-  self.outputStream = CFBridgingRelease(writeStream);
+  if(self.outputStream.streamStatus == NSStreamStatusOpen){
+    return;
+  }
+  
   [self.outputStream open];
 }
 
@@ -80,11 +92,11 @@ static NSUInteger kFluentdDefaultPort = 24224;
   });
 }
 
-- (void)dealloc
-{
-  [self.outputStream close];
-}
+#pragma mark - NSStreamDelegate
 
-#pragma mark - private
+- (void)stream:(NSStream *)theStream handleEvent:(NSStreamEvent)streamEvent
+{
+  // TODO error handling & reconnect strategy
+}
 
 @end
