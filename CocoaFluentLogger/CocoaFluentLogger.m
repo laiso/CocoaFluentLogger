@@ -2,11 +2,12 @@
 
 #import <MessagePack/MessagePackPacker.h>
 
-@interface CocoaFluentLogger()
-@property(nonatomic) NSString* tagPrefix;
-@property(nonatomic) NSString* host;
-@property(nonatomic) NSUInteger port;
-@property(nonatomic) NSOutputStream* outputStream;
+@interface CocoaFluentLogger() <NSStreamDelegate>
+@property (nonatomic) NSString* tagPrefix;
+@property (nonatomic) NSString* host;
+@property (nonatomic) NSUInteger port;
+@property (nonatomic) NSOutputStream* outputStream;
+@property (nonatomic, readonly) dispatch_queue_t queue;
 @end
 
 static NSUInteger kFluentdDefaultPort = 24224;
@@ -45,10 +46,17 @@ static NSUInteger kFluentdDefaultPort = 24224;
     self.tagPrefix = prefix;
     self.host = host;
     self.port = port;
+   
+    _queue = dispatch_queue_create("so.lai.CocoaFluentLogger", NULL);
   }
+  
   return self;
 }
 
+  if (_queue != NULL) {
+		dispatch_release(_queue);
+		_queue = NULL;
+	}
 - (void)connect
 {
   CFWriteStreamRef writeStream;
@@ -66,7 +74,10 @@ static NSUInteger kFluentdDefaultPort = 24224;
 {
   NSNumber* timeStamp = [NSNumber numberWithDouble:[[NSDate date] timeIntervalSince1970]];
   NSData* msg = [MessagePackPacker pack:@[[self.tagPrefix stringByAppendingFormat:@".%@", tag], timeStamp, object]];
-  [self.outputStream write:msg.bytes maxLength:msg.length];
+  
+  dispatch_sync(_queue, ^{
+    [self.outputStream write:msg.bytes maxLength:msg.length];
+  });
 }
 
 - (void)dealloc
